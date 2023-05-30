@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body {
+    margin: 0;
+    background-image: url('papers.jpg');
+    font-family: 'Nanum Pen Script', cursive;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    height: 100vh;
+}
+
+.mainContainer {
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+
+.quoteContainer {
+    background-color: #998062;
+    padding: 25px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 1rem 1rem 1.5rem 0.5rem #9a8d7e;
+}
+
+.btn {
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+    color: #8c7251;
+    font-size: 0.7em;
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 2rem white;
+}
+
+
+.quote:first-child { 
+    font-size: 1.5em;
+}
+
+
